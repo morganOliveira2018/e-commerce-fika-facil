@@ -47,10 +47,10 @@ function Navbar() {
                     </li>
                     <li>
                         <Link 
-                            to='/services' 
+                            to='/Login' 
                             className='nav-links' 
                             onClick={closeMenu}>
-                                Serviços
+                                Login
                         </Link>
                     </li>
                     <li>

@@ -37,7 +37,6 @@ function Cards() {
                             path='/services'
                         />
                     </ul>
-                    {/* Parei no minuto 1:08:16 */}
                 </div>
             </div>
         </div>
