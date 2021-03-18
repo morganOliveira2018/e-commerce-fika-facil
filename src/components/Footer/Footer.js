@@ -31,27 +31,25 @@ function Footer() {
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
                         <h2>Sobre nós</h2>
-                        <Link to='/signUp'>Como funciona</Link>
-                        <Link to='/'>Testemunhos</Link>
+                        <Link to='/signUp'>Entre em contato conosco</Link>
                         <Link to='/'>Carreiras</Link>
                         <Link to='/'>Histórias da FikaFacil</Link>
-                        <Link to='/'>Termos de uso</Link>
+                        <Link to='/'>Aperte</Link>
                     </div>
                     <div className="footer-link-items">
                         <h2>Ajuda</h2>
-                        <Link to='/signUp'>Como funciona</Link>
-                        <Link to='/'>Testemunhos</Link>
-                        <Link to='/'>Carreiras</Link>
-                        <Link to='/'>Histórias da FikaFacil</Link>
-                        <Link to='/'>Termos de uso</Link>
+                        <Link to='/signUp'>Pagamentos</Link>
+                        <Link to='/'>Envio</Link>
+                        <Link to='/'>Cancelamentos e devoluções</Link>
+                        <Link to='/'>Perguntas frequentes</Link>
+                        <Link to='/'>Denunciar violação</Link>
                     </div>
                     <div className="footer-link-items">
                         <h2>Política</h2>
-                        <Link to='/signUp'>Como funciona</Link>
-                        <Link to='/'>Testemunhos</Link>
-                        <Link to='/'>Carreiras</Link>
-                        <Link to='/'>Histórias da FikaFacil</Link>
+                        <Link to='/signUp'>Política de devolução</Link>
                         <Link to='/'>Termos de uso</Link>
+                        <Link to='/'>Segurança</Link>
+                        <Link to='/'>Privacidade</Link>
                     </div>
                     <div className="footer-link-items">
                         <h2>Redes Sociais</h2>
