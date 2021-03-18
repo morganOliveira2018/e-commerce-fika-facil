@@ -1,0 +1,69 @@
+video {
+    /* margin-top: 200px; */
+    /* object-fit: cover; */
+    width: 70%;
+    height: auto;
+    position: fixed;  /* fixa a posição do h1, paragrafos e buttons */
+    z-index: -1; /* garanta que meu video não esteja cobrindo nenhum dos outros elementos */
+}
+
+.hero-container {
+    /* background: url('/public/images/img-home.jpg') 
+    center/cover no-repeat; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+    object-fit: contain;
+}
+
+.title-info-container {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 500px;
+}
+
+.title-info-container h1 {
+    font-size: 35px;
+}
+
+.title-info-container p {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+                 'Lucida Grande', 'Lucida Sans', 'Arial', 
+                 'sans-serif';
+}
+
+.hero-btns {
+    margin-top: 5px;
+}
+
+.fa-play-circle {
+    margin-left: 4px;
+}
+
+@media screen and (max-width: 960) {
+    .hero-container > h1 {
+        font-size: 50px;
+        margin-top: -150px;
+    }
+    
+    .hero-container > p {
+        font-size: 30px;
+    }
+
+    .btn-mobile {
+        display: block;
+        text-decoration: none;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
+
+
+
