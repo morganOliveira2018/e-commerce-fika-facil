@@ -18,7 +18,13 @@ function HeroSection() {
                     buttonStyle='btn--outline'
                     buttonSize='btn--large'
                 >
-                    ASSISTA O TRAILER <i className='far fa-play-circle' />
+                    <td
+                        onClick={() =>
+                            window.open("https://www.youtube.com/watch?v=QonyO-tSxuc",
+                                "_blank")}
+                    >
+                        ASSISTA O TRAILER <i className='far fa-play-circle' />
+                    </td>
                 </Button>
             </div>
         </div>
